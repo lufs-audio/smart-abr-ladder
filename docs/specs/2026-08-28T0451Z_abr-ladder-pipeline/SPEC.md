@@ -21,10 +21,9 @@ encoding optimization in media today, and it is almost entirely closed:
   Nobody verifies every rendition decodes, hits its target quality within tolerance,
   holds bitrate band, stays monotonic, and carries no redundant rungs.
 
-This appears in the Apple Cloud Media Engineer JD (200678579-0836) as "explore and
-prototype optimizations across encoding pipelines" and "how metadata and ML models can
-enrich the media experience." Our answer: make the optimization **auditable**, in the
-same "proven, not exit-0" sense the rest of the LUFS toolset already treats audio.
+Content-aware encoding and ML-in-media are the two most active fronts in video
+infrastructure today. Our answer: make the optimization **auditable**, in the same
+"proven, not exit-0" sense the rest of the LUFS toolset already treats audio.
 
 ## Goals
 
